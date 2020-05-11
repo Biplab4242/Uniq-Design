@@ -1,0 +1,538 @@
+/* Global CSS Start */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Libre Franklin', sans-serif;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+a, a:hover {
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: none;
+}
+
+/* Global CSS End */
+
+
+/* Header Section CSS Start */
+.header-section {
+    width: 100%;
+    padding: 0px 0px 175px;
+    background: url('../Images/banner.png') center top no-repeat;
+    background-size: cover;
+}
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+.header-section .navbar-brand img {
+    width: 100px;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link {
+    color: #511de5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    background: url(../Images/hover.png) center bottom no-repeat;
+}
+.header-section .navbar-expand-lg .navbar-nav .nav-link {
+    color: #1a1a1a;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.header-section .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #511de5;
+    background: url(../Images/hover.png) center bottom no-repeat;
+    font-weight: 700;
+}
+.header-section .navbar-expand-lg .navbar-nav .nav-item .btn-primary {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    padding: 7px 35px;
+    margin-left: 15px;
+    background: linear-gradient(to right, #511de5 50%, #1085fa) !important;
+    border: 1px solid linear-gradient(to right, #511de5 50%, #1085fa);
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.header-section .navbar-expand-lg .navbar-nav .nav-item .btn-primary:hover {
+    color: #511de5;
+    border: 1px solid #511de5;
+    background: transparent !important;
+}
+
+/* Banner Section Start */
+.banner {
+    width: 100%;
+}
+.banner .banner-inner {
+    width: 100%;
+    padding-top: 150px;
+}
+.banner .banner-inner h1 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 900;
+    text-align: right;
+    color: #000000;
+}
+.banner .banner-inner h1 span {
+    color: #511de5;
+}
+.banner .banner-inner .btn-primary {
+    color: #061113;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 10px 20px 10px 35px;
+    margin-top: 20px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.banner .banner-inner .btn-primary:hover {
+    background: transparent;
+    border: 1px solid #061113;
+}
+.banner .banner-inner .fa-long-arrow-alt-right {
+    margin-left: 15px;
+}
+/* Banner Section End */
+
+/* Header Section CSS End */
+
+
+/* Highlight Section CSS Start */
+.highlight-section {
+    width: 100%;
+    background: url('../Images/High_banner.png') center top no-repeat;
+    background-size: cover;
+    padding: 80px 0px 30px 0px;
+    margin-top: -40px;
+}
+.highlight-section .highlight-inner {
+    width: 100%;
+}
+.highlight-section .highlight-inner h2 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 900;
+    color: #fff;
+}
+
+/* Highlight Section CSS End */
+
+
+/* Feature Section Start */
+.feature-section {
+    width: 100%;
+    padding: 60px 0px 50px;
+}
+.feature-section .feature-inner {
+    width: 100%;
+    padding: 60px 60px 160px;
+    background: url('../Images/Feature_banner2.png') center top no-repeat;
+    background-size: cover;
+    box-shadow: 5px 10px 15px #ccc;
+
+}
+.feature-section .feature-inner h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    color: #000000;
+}
+.feature-section .feature-inner p {
+    line-height: 26px;
+    color: #000000;
+}
+.feature-section .feature-inner p:last-child {
+    font-weight: 700;
+    margin-top: 80px;
+}
+.feature-section .feature-inner p span {   
+    font-size: 80px;
+    font-weight: 900;
+    color: #511de5;
+}
+.feature-section .feature-inner .per {
+    color: #1976f7;
+} 
+/* Feature Section End */
+
+
+/* Client Section CSS Start  */
+.client {
+    width: 100%;
+    padding-bottom: 30px;
+}
+.client .client-inner {
+    width: 100%;
+}
+/* Client Section CSS End  */
+
+
+/* Quote Section CSS Start */
+.quote {
+    width: 100%;
+    background: url('../Images/quote_banner.png') center top no-repeat;
+    background-size: cover;
+}
+.quote .quote-logo {
+    width: 100%;
+    background: url(../Images/quate.png) center top no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+    padding-bottom: 125px
+}
+.quote .quote-logo p {
+    color: #fff;
+    line-height: 26px;
+    margin-left: 25%;
+    padding-top: 130px;
+}
+.quote .quote-logo h6 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-left: 4%;
+}
+.quote .quote-text {
+    width: 100%;
+    margin: 105px 0px;
+}
+.quote .quote-text h2 {
+    text-align: left;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 900;
+    color: #000000;
+}
+.quote .quote-text .btn-primary {
+    color: #061113;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 10px 20px 10px 35px;
+    margin-top: 20px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.quote .quote-text .btn-primary:hover {
+    background: transparent;
+    border: 1px solid #061113;
+}
+/* Quote Section CSS End */
+
+
+/* Efficiency Section CSS Start */
+.efficiency {
+    width: 100%;
+    padding: 35px 0px 0px;
+}
+.efficiency .efficiency-text {
+    width: 100%;
+    padding: 35px 0px;
+}
+.efficiency .efficiency-text h2 {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 900;
+    color: #000000;
+}
+.efficiency .efficiency-text p {
+    line-height: 26px;
+    margin: 25px 0px;
+    color: #000000;
+}
+.efficiency .efficiency-icon {
+    width: 100%;
+}
+.efficiency .efficiency-icon li {
+    list-style: none;
+    margin: 20px 0px 15px;
+}
+.efficiency .efficiency-icon li img {
+    margin-right: 20px;
+}
+.efficiency .efficiency-icon .btn-primary {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    padding: 7px 35px;
+    margin-top: 30px;
+    background: linear-gradient(to right, #511de5 50%, #1085fa) !important;
+    border: 1px solid linear-gradient(to right, #511de5 50%, #1085fa);
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.efficiency .efficiency-icon .btn-primary:hover {
+    color: #511de5;
+    border: 1px solid #511de5;
+    background: transparent !important;
+}
+.efficiency .efficiency-image {
+    width: 100%;
+}
+.efficiency .efficiency-image img {  
+   width: 100%;
+}
+/* Efficiency Section CSS End */
+
+
+/* Desing Section CSS Start */
+.design {
+    width: 100%;
+    padding: 60px 0px;
+    background: #fcfcfc;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+}
+.design .design-title {
+    width: 100%;
+    padding-bottom: 0px;
+}
+.design .design-title h2 {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 900;
+    color: #000000;
+}
+.design .design-title p {
+    line-height: 26px;
+    margin: 25px 0px;
+    color: #000000;
+}
+.design .card {
+    border: none;
+    border-right: 2px solid #f2f2f2;
+    background: #fcfcfc !important;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    position: relative;
+}
+.design .no-border {
+    background: #fcfcfc !important;
+    border: none;
+}
+.design .card img {
+   mix-blend-mode: darken;
+}
+.design .card-body {
+    padding-top: 0px;
+}
+.design .card-body .card-title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #000000;
+}
+.design .card-body .card-text{
+    line-height: 26px;
+    color: #000000;
+}
+/* Desing Section CSS End */
+
+
+/* Inspiratinal Section CSS Start */
+.inspirational {
+    width: 100%;
+    padding: 0px 0px 20px;
+    background: #FFFFFF;
+}
+.inspirational .inspirational-title {
+    width: 100%;
+    padding-bottom: 0px;
+}
+.inspirational .inspirational-title h1 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 900;
+    color: #000000;
+}
+.inspirational .card {
+    width: 100%;
+    background: url('../Images/b.jpg') center top no-repeat;
+    background-size: cover;
+    border: 1px solid #f6f6f6;
+    opacity: 70%;
+}
+.inspirational .card .card-header {
+    background-color: unset !important;
+    margin: 0px 15px;
+    padding: 50px 0px 0px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #d6d6d6;
+    border-bottom: 1px solid #f6f6f6;
+}
+.inspirational .card .image {
+
+}
+.inspirational .card .image img {
+    width: 80px;
+    margin-top: 30px;
+}
+.inspirational .card .card-body {}
+.inspirational .card .card-body .card-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #999999;
+    text-transform: uppercase;
+}
+.inspirational .card .card-body .card-text {
+    color: #cdcdcd;
+    margin-bottom: 20px;
+}
+.inspirational .card:hover {
+   opacity: 100%;
+}
+.inspirational .card:hover .card-header {
+   color: #0000ff;
+ }
+ .inspirational .card:hover .card-title {
+    color: #000000;
+  }
+/* Inspiratinal Section CSS End */
+
+
+/* Footer Section Start */
+.footer-section {
+    width: 100%;
+    padding: 325px 0px 230px;
+    background: url(../Images/footer.png) center top no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 325px;
+}
+.footer-section .footer-inner {
+    width: 100%;
+    background: #fff;
+    padding: 75px 100px 70px;
+    box-shadow: 1px 1px 10px #ccc;
+    position: absolute;
+    top: -625px;
+}
+.footer-section .footer-inner h1 {
+    color: #000;
+    font-size: 55px;
+    line-height: 65px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.footer-section .footer-inner h5 {
+    color: #0000ff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.footer-section .footer-inner p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.footer-section .footer-inner .question {
+    width: 100%;
+    padding-top: 20px;
+}
+.footer-section .footer-inner .question h5 {
+    color: #000000;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    border-top: 1px solid #efefef;
+    padding-top: 15px;
+}
+.footer-section .footer-left {
+    width: 100%;
+    position: absolute;
+    bottom: -175px;
+}
+.footer-section .footer-left a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 900;
+    margin-right: 20px;
+}.footer-section .footer-left a:hover {
+    opacity: 70%;
+}
+.footer-section .footer-right {
+    width: 100%;
+    position: absolute;
+    bottom: -192px;
+
+}
+.footer-section .footer-right p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 900;
+    text-align: right;
+}
+/* Footer Section End */
+
+
+  
